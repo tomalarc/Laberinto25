@@ -1,1 +1,2 @@
-print ("Hola Mundo")
+nombre = input ("Escribe tu nombre: ")
+print (nombre)
