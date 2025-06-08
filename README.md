@@ -1,5 +1,5 @@
 # REPOSITORIO PROYECTO DE LABERINTO - DISEÑO DE SOFTWARE - UCLM
-Primer avance del proyecto
+Ultimo avance del proyecto
 
 ## Últimos Cambios y consideraciones
 
