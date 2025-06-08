@@ -1,24 +1,30 @@
 # REPOSITORIO PROYECTO DE LABERINTO - DISEÑO DE SOFTWARE - UCLM
-Ultimo avance del proyecto
 
-## Últimos Cambios y consideraciones
+**Último avance del proyecto**
 
-1. Se crearon 12 modificaciones extra al proyecto desarrollado en clases:
-   a. Extension de algunos comandos:
-     i. AbrirPuertas()
-     ii. CerrarPuertas()
-     iii. Atacar()
-     iv. Arriba()
-     v. Izquierda()
-     vi. Derecha()
-     vii. Abajo()
-   b. Nuevo ConcreteStrategy en Modo de Bicho
-   c. Nuevos Decorator:
-     i. Puntos
-     ii. VidaExtra
-   d. Nuevos ElementoMapa:
-     i. Tesoro
-     ii. Teletransportador
+## Últimos Cambios y Consideraciones
 
-3. Se implementó una pequeña libreria llamada graficos.py que utiliza pygame como base, con el fin de poder dibujar el laberinto
-4. Verificar bien la ruta en la que se carga el json para evitar errores
+1. **Se crearon 12 modificaciones extra al proyecto desarrollado en clases:**
+
+   **a. Extensión de algunos comandos:**
+   - `AbrirPuertas()`
+   - `CerrarPuertas()`
+   - `Atacar()`
+   - `Arriba()`
+   - `Izquierda()`
+   - `Derecha()`
+   - `Abajo()`
+
+   **b. Nuevo `ConcreteStrategy` en modo de Bicho**
+
+   **c. Nuevos `Decorator`:**
+   - `Puntos`
+   - `VidaExtra`
+
+   **d. Nuevos `ElementoMapa`:**
+   - `Tesoro`
+   - `Teletransportador`
+
+2. **Se implementó una pequeña librería llamada `graficos.py` que utiliza `pygame` como base**, con el fin de poder dibujar el laberinto.
+
+3. **Verificar bien la ruta en la que se carga el archivo JSON** para evitar errores.
