@@ -1,0 +1,27 @@
+{
+    "forma": "cuadrado",
+    "laberinto": [
+        {"tipo": "habitacion", "num": 1, "hijos": [{"tipo": "vida", "objeto": []}]},
+        {"tipo": "habitacion", "num": 2, "hijos": [{"tipo": "armario", "num": 2, "hijos": []}]},
+        {"tipo": "habitacion", "num": 3, "hijos": [{"tipo": "bomba", "activa":true, "objeto": []}]},
+        {"tipo": "habitacion", "num": 4, "hijos": [{"tipo": "tunel", "num": 1}]},
+		{"tipo": "habitacion", "num": 5, "hijos": [{"tipo": "punto", "objeto": []}]},
+		{"tipo": "habitacion", "num": 6, "hijos": [{"tipo": "tele", "hab": 8}]},
+		{"tipo": "habitacion", "num": 7, "hijos": [{"tipo": "tesoro"}]},
+		{"tipo": "habitacion", "num": 8, "hijos": [{"tipo": "tele", "hab": 6}]}
+    ],
+    "puertas": [
+        [1, "Este", 2, "Oeste"],
+        [2, "Sur", 4, "Norte"],
+        [4, "Oeste", 3, "Este"],
+        [3, "Norte", 1, "Sur"],
+		[1, "Norte", 5, "Sur"],
+		[5, "Oeste", 6, "Este"],
+		[4, "Este", 7, "Oeste"],
+		[7, "Sur", 8, "Norte"]
+    ],
+    "bichos": [
+        {"modo": "Agresivo", "posicion": 2},
+        {"modo": "Perezoso", "posicion": 4}
+    ]
+}

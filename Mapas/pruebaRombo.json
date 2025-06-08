@@ -1,0 +1,27 @@
+{
+    "forma": "rombo",
+    "laberinto": [
+        {"tipo": "habitacion", "num": 1, "hijos": [{"tipo": "vida", "objeto": []}]},
+        {"tipo": "habitacion", "num": 2, "hijos": [{"tipo": "armario", "num": 2, "hijos": []}]},
+        {"tipo": "habitacion", "num": 3, "hijos": [{"tipo": "bomba", "activa": true, "objeto": []}]},
+        {"tipo": "habitacion", "num": 4, "hijos": [{"tipo": "tunel", "num": 1}]},
+        {"tipo": "habitacion", "num": 5, "hijos": [{"tipo": "punto", "objeto": []}]},
+        {"tipo": "habitacion", "num": 6, "hijos": [{"tipo": "tele", "hab": 8}]},
+        {"tipo": "habitacion", "num": 7, "hijos": [{"tipo": "tesoro"}]},
+        {"tipo": "habitacion", "num": 8, "hijos": [{"tipo": "tele", "hab": 6}]}
+    ],
+    "puertas": [
+        [1, "Noreste", 2, "Suroeste"],
+        [2, "Sureste", 4, "Noroeste"],
+        [4, "Suroeste", 3, "Noreste"],
+        [3, "Noroeste", 1, "Sureste"],
+        [1, "Noroeste", 5, "Sureste"],
+        [5, "Suroeste", 6, "Noreste"],
+        [4, "Noreste", 7, "Suroeste"],
+        [7, "Sureste", 8, "Noroeste"]
+    ],
+    "bichos": [
+        {"modo": "Agresivo", "posicion": 2},
+        {"modo": "Perezoso", "posicion": 4}
+    ]
+}
